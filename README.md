@@ -1,8 +1,8 @@
 # C++ Tips & Tricks
 
-cpptt: for safe keeping & quick referencing.
+`cpptt`: for safekeeping & quick referencing.
 
-![cpptt](./assets/C++ banner.png)
+![cpptt](./assets/C++\ banner.png)
 
 
 ```
