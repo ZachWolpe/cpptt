@@ -2,7 +2,7 @@
 
 cpptt: for safe keeping & quick referencing.
 
-![cpptt]('./assets/C++ banner.png')
+![cpptt](./assets/C++ banner.png)
 
 
 ```
