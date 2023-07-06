@@ -4,6 +4,9 @@
  * @file: control_flow.cpp
  * 
  * Unobvious tips to handling control flow in C++.
+ *      - break:  breaks a loop
+ *      - return: exits the function.
+ *      - continue: skips the rest of the loop and continues to the next iteration.
  * 
  * : Zach Wolpe
  * : zach.wolpe@medibio.com.au
@@ -24,9 +27,23 @@ int break_while (int i=10) {
     }
 };
 
+// do-while loop
+// Identical to a while loop however the condition is checked at the end of the loop, ensuring 1 iteration.
+void doWhiler() {
+    std::cout << "doWhiler()" << std::endl;
+    int i = 0;
+    do {
+        std::cout << " i: " << i << std::endl;
+        i++;
+    } while (false);
+};
+
+
+
 
 int main() {
-    if (break_while()) std::cout << "while broken!" << std::cout;
+    if (break_while()) std::cout << "while broken!" << std::endl;
+    doWhiler();
     return 0;
 }
 
